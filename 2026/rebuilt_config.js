@@ -75,12 +75,9 @@ var config_data = `
       "expectedMax": 5,
       "shape": "circle 5 black red true"
     },
-    { "name": "Fuel Scored",
-      "code": "afs",
-      "expectedMax": 32,
-      "altInc1": 10,
-      "altInc2": 5,
-      "type": "counter"
+    { "name": "DId the robot Score",
+      "code": "rc",
+      "type": "bool"
     },
     { "name": "Pass from Neutral Zone",
       "code": "apn",
