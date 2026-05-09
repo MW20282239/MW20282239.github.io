@@ -75,16 +75,15 @@ var config_data = `
       "expectedMax": 5,
       "shape": "circle 5 black red true"
     },
-    { "name": "DId the robot Score",
-      "code": "rc",
-      "type": "bool"
-    },
-    { "name": "Pass from Neutral Zone",
-      "code": "apn",
-      "expectedMax": 60,
-      "altInc1": 10,
-      "altInc2": 5,
-      "type": "counter"
+    { "name": "Scoring rankings",
+      "code": "sc"
+      "type": "radio",
+      "choices": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4",
+        "e": "5",
     },
     { "name": "Climb (L1)",
       "code": "ac",
