@@ -75,18 +75,18 @@ var config_data = `
       "expectedMax": 5,
       "shape": "circle 5 black red true"
     },
-    { "name": "Scoring rankings",
-      "code": "sc"
-      "type": "radio",
-      "choices": {
-        "a": "1",
-        "b": "2",
-        "c": "3",
-        "d": "4",
-        "e": "5",
-    },
-    "defaultValue": "a"
-    },
+ { "name": "Robot Scoring in Auto",
+  "code": "rsa",
+  "type": "radio",
+  "choices": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5"
+  },
+  "defaultValue": "a",
+}
     { "name": "Climb (L1)",
       "code": "ac",
       "type": "radio",
