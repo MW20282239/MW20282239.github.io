@@ -86,7 +86,7 @@ var config_data = `
     "5": "5"
   },
   "defaultValue": "a",
-}
+},
     { "name": "Climb (L1)",
       "code": "ac",
       "type": "radio",
